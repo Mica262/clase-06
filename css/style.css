@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 1rem;
+    background-color: burlywood;
+    font-family: 'Instrument Serif', serif;
+}
+
+.menu {
+    list-style: none;
+}
+ 
+.menu li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(189, 158, 118);
+    padding: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+
+.menu li:hover {
+    background-color: grey;
+    color: brown;
+}
+body {
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+main {
+    background-color: rgb(250, 148, 117);
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.color {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.azul {
+    background-color: rgb(130, 130, 241);
+    width: 300px;
+    height: 200px;
+    padding: 25px;
+    margin: 20px;
+}
+
+.verde {
+    background-color: rgb(127, 206, 127);
+    width: 300px;
+    height: 160px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.amarillo {
+    background-color: rgb(223, 223, 136);
+    width: 300px;
+    height: 250px;
+    padding: 25px;
+    margin: 20px;
+    overflow: auto;
+}
+
+.naranja {
+    background-color: rgb(218, 178, 103);
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+}
